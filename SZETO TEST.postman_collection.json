@@ -1,0 +1,175 @@
+{
+	"info": {
+		"_postman_id": "9cec63ed-bca1-4b7f-9629-31065e5f3965",
+		"name": "SZETO TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Irfan Arifin",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "81211391349",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Jalan Taman Safari RT 04 RW 05",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ir.irfan.arifin@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "ktp",
+							"value": "1234",
+							"type": "text"
+						},
+						{
+							"key": "pic_name",
+							"value": "[Irfan, Arifin]",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/api/customer",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Irfan Arifin",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "81211391349",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "Jalan Taman Safari RT 04 RW 05",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ir.irfan.arifin@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "ktp",
+							"value": "1234",
+							"type": "text"
+						},
+						{
+							"key": "pic_name",
+							"value": "[Irfan, Arifin]",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/api/customer/1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"customer",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/customer/",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"customer",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/api/customer/1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"customer",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
